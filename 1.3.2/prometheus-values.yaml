@@ -16,7 +16,7 @@ scrapeConfigs:
     enabled: true
     static_configs:
       - targets:
-          - "172.31.8.5:9100"     # ← replace with your server's IP or hostname
+          - "172.31.8.55:9100"     # ← replace with your server's IP or hostname
 
   # ── Target 2 · mongodb_exporter (the database) ──────────────────────────────
   # install-exporters.sh also runs mongodb_exporter on :9216 on the SAME box.
