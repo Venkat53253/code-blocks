@@ -25,7 +25,7 @@ scrapeConfigs:
     enabled: true
     static_configs:
       - targets:
-          - "172.31.29.33:9216"     # ← same server IP as above
+          - "172.31.8.55:9216"     # ← same server IP as above
 
 alertmanager:
   enabled: false
